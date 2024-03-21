@@ -1,0 +1,1 @@
+CREATE OR REPLACE TABLE t_daniela_sablova_project_sql_primary_final 
