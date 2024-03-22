@@ -1,7 +1,7 @@
-Engeto Data Academy - Final Project 1
----
+#Engeto Data Academy - Final Project 1
+--
 discord name: daniela.sablova
--
+
 
 # Project Structure
 
@@ -76,11 +76,13 @@ GINI - GINI koeficient
 Population - Počet obyvatel dané země v daném roce!
 
 # Commentary for Question SQL queries
-Question 1
+Question 1 
+-
 K výpočtu, zda mzda rostla nebo klesala, vytvoříme sloupec Last_year_salary pomocí funkce LAG, která nám vybere hodnoty o jeden řádek výš. 
 Ve sloupci salary_in_time je následně uvedeno, zda mzda v daném roce v porovnání s předchotím roce vzrostla nebo klesla
 
 Question 2
+-
 První a poslední srovnatelné období jsou roky 2006 a 2018. 
 Jedná se o hodnoty cen zprůměrované za celý rok a z celé republiky.
 Hodnoty kilo chleba a litrů mléka jsou zaokrouhlené na nejbližší číslo dolů, jelikož případné zaokrouhlení nahoru by nedávalo smyls. 
@@ -88,15 +90,18 @@ Je napojena znovu primární tabulku pomocí funkce JOIN přes rok měření, ab
 Nejdůležitější je sloupec units, který ukazuje za kolik by si průměrně v daném roce bylo  možné za průměrnou mzdu kilo chleba či litrů mléka).
 
 Question 3 
+-
 Z Primární tabulky jsou vyfiltrovaná data pouze pro ceny potravin. K výpočtu meziročního růstu je využit LAG. Meziroční nárůsty (poklesy) byly následně zprůměrovány, abychom zjistili průměrný meziroční nárůst. K tomu bylo také nutné využít vnořený select.
 
 Question 4
+-
 Nejprve je zjištěn meziroční nárůst mezd pomocí VIEW. Data o mzdách zprůměrujeme na roční mzdu, pomocí JOIN získáme meziroční srovnání.
 Stejný postup je aplikován u zjištění meziročního nárůstu mezd.
-
 Poslední  příkaz spojuje informace o obou ukazatelích a je zde přidán sloupec k výpočtu rozdílu růstu cen a mezd.
- Data ve sloupi yearly_selery_increase a yearly_price_increase jsou v procentech.
+Data ve sloupi yearly_selery_increase a yearly_price_increase jsou v procentech.
+ 
 Question 5
+-
 Je vytvořeno VIEW pro jednodušší následnou manipulaci s daty o HDP. Pro získání dat o HDP je využita sekundární tabulka. Pomocí JOIN stejné tabulky získáme srovnání a vypočítáme meziroční nárůst HDP.  
 Data o hdp jsou vyselektována pouze pro Českou republiku. 
 Následně porovnáváme percentuální meziroční rozdíly pro ceny, mzdy a HDP. Pro data o mzdách a cenách jsou využity pohledy z předchozí otázky.
