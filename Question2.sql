@@ -29,4 +29,3 @@ JOIN
 	AS price
 ON salary.measured_year = price.year
 ;
-
