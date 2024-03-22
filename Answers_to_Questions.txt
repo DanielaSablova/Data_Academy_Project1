@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Qeustion 1:
 Průměrná mzda v letech 2006-2018 meziročně vždy rostla pouze v těchto odvětvích:
 Zdravotní a sociální péče, Doprava a skladování a Ostatní činnosti, Zpracovatelský průmysl
@@ -26,4 +27,34 @@ Výraznější změny HDP:
 2015 - nárůst HDP (5,39 %) neovlivnil výrazně mzdy ani ceny ve stejném či následujícím roce
 2017 - nárůst HDP (5,17 %), ve stejném roce výrazně vzrostly ceny, na následující rok to již vliv nemělo a mzdy rostly výrazněji ve stejném i následujícím roce
 Podle poskytnutých dat to vypadá, že výška HDP může mít vliv na změny v mzdách a cenách potravin, ale tento vliv není vždy jednoznačný. 
+=======
+Qeustion 1:
+Průměrná mzda v letech 2006-2018 meziročně vždy rostla pouze v těchto odvětvích:
+Zdravotní a sociální péče, Doprava a skladování a Ostatní činnosti, Zpracovatelský průmysl
+Pouze jeden pokles v průměrné mzdě v průběhu těchto let zaznamenaly odvětví Administrativní a podpůrné činnosti, Činnost v oblasti nemovitostí, Informační a komunikační činnosti, 
+Peněžnictví a pojišťovnictví, Stavebnictví, Velkoobchod a maloobchod; opravy a údržba motorových vozidel, Vzdělávání, Zásobování vodou; činnosti související s odpady a sanacemi, Zemědělství, lesnictví, rybářství, 
+Mzdy ve všech odvětvích převážně rostou. Stálý meziroční nárůst mezd lze pozorovat pouze ve 4 odvětvích.
+
+ Question 2:
+V roce 2006 by bylo možné si za průměrnou mzdu koupit 1289 kg chleba a 1441 litrů mléka.
+V roce 2018 by bylo možné si za průměrnou mzdu koupit 1344 kg chleba a 1643 litrů mléka.
+Můžeme tedy vyvodit, že přestože ceny potravin v čase rostly, mzdy se zvyšovaly více a lidé si tak v čase polepšili. 
+Question 3:
+ Můžeme sledovat, že většina kategorií průměrně zdražovala. Výjimky jsou kategorie cukr (-1,88 %) krystal a rajčata (-0,73 %), kde cena průměrně v průběhu let klesala.
+Pokud bychom se tedy zaměřili pouze na suroviny, které zdražovaly, nejpomalejší nárůst je možné zaznamenat v kategorii Banány žluté. 
+Nejvíce naopak průměrně zdražují papriky (7,3 %). 
+
+Question 4:
+V letech 2006-2018 nevzrostly průměrné ceny meziročně nikdy výrazně více (o více než 10 %) než průměrné mzdy.
+Nejvyšší rozdíl růstu cen oproti mzdám (6,6 %) je z let 2012-2013, kdy ceny meziročně vzrostly o 5 % a mzdy meziročně poklesly o 1,6 %.
+
+Question 5:
+V letech 2006-2018 HDP povětšinou rostlo. Nejvýraznější pokles lze zaznamenat z let 2008 na 2009 (-4,66%). V letech 2012 a 2013 HDP také mírně pokleslo v porovnání s předchozími roky. 
+Výraznější změny HDP:
+2007 - nárůst HDP (5,57 %) měl vliv ne růst cen i mezd ve stejném i následujícím roce
+2009 -- pokles HDP (-4,66 %) měl velký vliv na pokles cen v e stejném roce, mzdy ovlivněny výrazněji nebyly, tento pokles HDP mohl také ovlivnit pomalý růst cen a mezd v následujícím roce
+2015 - nárůst HDP (5,39 %) neovlivnil výrazně mzdy ani ceny ve stejném či následujícím roce
+2017 - nárůst HDP (5,17 %), ve stejném roce výrazně vzrostly ceny, na následující rok to již vliv nemělo a mzdy rostly výrazněji ve stejném i následujícím roce
+Podle poskytnutých dat to vypadá, že výška HDP může mít vliv na změny v mzdách a cenách potravin, ale tento vliv není vždy jednoznačný. 
+>>>>>>> 6f098dcfcad3c623f2e8db630bb608b1254a8249
 Takže výška HDP může ovlivňovat ceny a mzdy, ale mohou hrát roli i další faktory.

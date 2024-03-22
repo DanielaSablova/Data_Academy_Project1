@@ -21,4 +21,7 @@ FROM
 GROUP BY food_category
 ORDER BY avg_price_increase
 ;
+
+SELECT 
+FROM 
 	
