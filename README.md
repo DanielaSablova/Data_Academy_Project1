@@ -1,5 +1,7 @@
 Engeto Data Academy - Final Project 1
 ---
+discord name: daniela.sablova
+--
 
 # Project Structure
 
@@ -49,6 +51,7 @@ Dodatečné tabulky:
 # Data and tables description
 
 Table 1
+-
 Data využijeme pouze z let 2006-2018 (data o mzdách máme pro roky 2000 - 2021, o cenách pro roky 2006 až 2018), jelikož mají být sjednocená na totožné porovnatelné období – společné roky.
 V primární tabulce byly využity data z data sad: czechia_payroll, czechia_payroll_industry_branch, czechia_price, czechia_price_category
 Pro vytvoření tabulky je použita funkce UNION, čímž pod sebe seřadíme data o cenách a mzdách. O jaký typ údaje je rozlišeno ve sloupci data_type
@@ -62,6 +65,7 @@ Byly zjištěny také záznamy s nevyplněným industry_branch_code, které je p
 Hodnoty cen a mezd byly zprůměrovány a seskupeny dle náležitých kategorií k zmenšení data setu a urychlení následujících dotazů.
 
 Table 2
+-
 Sekundární tabulka obsahuje přehled o HDP, GINI koeficientu a populaci jako přehled primární tabulky. Roky jsou tedy omezeny na 2006-2018. Tabulka obsahuje data z 'economies' a 'countries'
 Tabulka 'countries' byla napojena pro snadné vyfiltrování evropských zemí. 
 Popis sloupců:
