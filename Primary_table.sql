@@ -11,6 +11,7 @@ AS
 	WHERE 
 		cp.value_type_code = 5958               -- bere v potaz pouze hodnoty "Průměrná hrubá mzda na zaměstnance"
 		AND cp.payroll_year > 2005 AND cp.payroll_year < 2019
+		AND cp_industry_branch_code IS NOT NULL   -- eliminace záznamů bez kodu
 	GROUP BY
 		cp.payroll_year,
 		cp.industry_branch_code
@@ -26,6 +27,7 @@ UNION
 	FROM czechia_price cpr
 	JOIN czechia_price_category cpc
 		ON cpr.category_code = cpc.code
+	WHERE cpc.name != 'Jakostní víno bílé'
 	GROUP BY
 		YEAR(cpr.date_from),
 		cpr.category_code)
